@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Beacon Logs</title>
+  </head>
+  <body>
+    <h1>Beacons</h1>
+    {% if beacons  %}
+    <ul id="beacons">
+      {% for beacon in beacons %}
+      <li>{{ beacon }}</li>
+      {% endfor %}
+    </ul>
+    {% endif %}
+  </body>
+</html>

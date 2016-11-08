@@ -1,8 +1,8 @@
 Setup
 =====
 - `pip install Flask`
-
+- `pip install Flask-Script`
 
 Run
 ===
-- `export FLASK_APP=main.py; python -m flask run --host=0.0.0.0;`
+- `python app.py runserver --host 0.0.0.0`
